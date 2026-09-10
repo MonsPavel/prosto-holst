@@ -9,7 +9,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-  administration: write
 
 concurrency:
   group: pages
@@ -25,6 +24,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Enable Pages and configure
         uses: actions/configure-pages@v5
+        continue-on-error: true
         with:
           enablement: true
       - name: Upload site
