@@ -9,6 +9,7 @@
 index.html        — вся страница
 assets/style.css  — стили (палитра и шрифты — в :root сверху)
 assets/main.js    — reveal-анимации и год в футере
+assets/img/       — фирменная графика (WebP) + og-cover.png для соцпревью
 ```
 
 ## Что заменить на реальные данные

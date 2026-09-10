@@ -8,6 +8,11 @@
   <meta property="og:title" content="Просто Холст — холсты, которые не ведёт">
   <meta property="og:description" content="Хлопок и лён, любые размеры, натяжка вручную. Мастерская в СПб, доставка по России.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://monspavel.github.io/prosto-holst/">
+  <meta property="og:image" content="https://monspavel.github.io/prosto-holst/assets/img/og-cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23D9431F'/%3E%3Crect x='7' y='7' width='18' height='18' fill='%23FBF8F0' stroke='%231F1B15' stroke-width='2'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -193,6 +198,17 @@
       </div>
     </section>
 
+    <!-- ============ ПОСТЕР: графика бренда ============ -->
+    <section class="poster" aria-label="Фирменный плакат: скейтборд пробивает холст">
+      <figure class="poster__fig" data-reveal>
+        <img src="assets/img/poster-deck.webp" alt="Иллюстрация тушью: скейтборд пробивает насквозь холст на подрамнике" width="900" height="900" loading="lazy">
+        <figcaption class="poster__cap">
+          <b>скейт 1&nbsp;:&nbsp;0 холст</b>
+          <span>реванш — под заказ</span>
+        </figcaption>
+      </figure>
+    </section>
+
     <!-- ============ КАК ЗАКАЗАТЬ ============ -->
     <section class="section" id="how">
       <div class="section__in">
@@ -250,8 +266,8 @@
         <ul class="shots" role="list">
           <li class="shot" data-reveal>
             <span class="shot__tape" aria-hidden="true"></span>
-            <div class="shot__ph">фото</div>
-            <p>Стопка холстов в наличии</p>
+            <img class="shot__img" src="assets/img/canvas-photo.webp" alt="Холст мастерской с фирменной графикой в металлической раме на стене" width="800" height="800" loading="lazy">
+            <p>Фирменный холст с графикой</p>
           </li>
           <li class="shot" data-reveal>
             <span class="shot__tape" aria-hidden="true"></span>
@@ -306,9 +322,17 @@
 
   <footer class="footer">
     <div class="footer__in">
-      <p class="footer__brand">ПРОСТО<span class="logo__dot">•</span>ХОЛСТ</p>
-      <p>Мастерская холстов и рам · СПб, пл. Ленина, 3</p>
-      <p class="footer__joke">И дека, и подрамник — из дерева. Совпадение? Не думаем.</p>
+      <div class="footer__row">
+        <div class="footer__info">
+          <p class="footer__brand">ПРОСТО<span class="logo__dot">•</span>ХОЛСТ</p>
+          <p>Мастерская холстов и рам · СПб, пл. Ленина, 3</p>
+          <p class="footer__joke">И дека, и подрамник — из дерева. Совпадение? Не думаем.</p>
+        </div>
+        <figure class="footer__sign">
+          <img src="assets/img/sign-hands.webp" alt="Рисунок тушью: руки обнимают деревянный подрамник для холста" width="480" height="555" loading="lazy">
+          <figcaption>держим натяжку</figcaption>
+        </figure>
+      </div>
       <p class="footer__copy">© <span id="year">2026</span>, сделано на скейте</p>
     </div>
   </footer>
