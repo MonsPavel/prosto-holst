@@ -1,0 +1,10 @@
+{
+  "name": "prosto-holst",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
