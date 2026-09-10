@@ -456,7 +456,7 @@ h1, h2, h3 { margin: 0; }
   background: repeating-linear-gradient(45deg, rgba(201, 192, 174, .12) 0 12px, transparent 12px 24px);
 }
 .shot__img {
-  width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; display: block;
+  width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; display: block;
   border: 1px solid #E4DDCB;
 }
 .shot p {
@@ -597,7 +597,7 @@ h1, h2, h3 { margin: 0; }
   .hero__facts { grid-template-columns: 1fr; gap: 16px; }
   .pirate { position: static; margin-top: 22px; justify-content: flex-end; }
   .footer__copy { margin-left: 0; }
-  .shot__ph, .shot__img { aspect-ratio: 5 / 4; }
+  .shot__ph, .shot__img { aspect-ratio: 1 / 1; }
 }
 
 /* ---------- reduced motion ---------- */
