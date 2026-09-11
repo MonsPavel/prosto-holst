@@ -359,7 +359,10 @@ h1, h2, h3 { margin: 0; }
   font-family: var(--font-mono); font-weight: 700; font-size: 1.25rem;
   box-shadow: 3px 4px 0 rgba(31, 27, 21, .9);
 }
-.step__link { flex: 1; min-width: 0; height: 44px; color: var(--ink); }
+.step__link { flex: 1; min-width: 0; height: 44px; display: flex; align-items: center; color: var(--ink); }
+.step__dash { flex: 1; min-width: 0; height: 100%; }
+.step__tip { flex: none; width: 15px; height: 15px; margin-left: -3px; }
+.step__flag { flex: none; width: 30px; height: 34px; margin-left: 4px; }
 .step h3 { font-family: var(--font-display); font-weight: 400; font-size: 1rem; text-transform: uppercase; margin-bottom: 10px; }
 .step p { margin: 0; color: var(--graphite); font-size: .95rem; }
 
